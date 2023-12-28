@@ -1,0 +1,45 @@
+.lesson-container {
+    font-family: 'Arial', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+h2 {
+    color: #ffffff;
+    background-color: #ba2929;
+}
+
+li:nth-child(2) {
+    background-color: #dcc5c5 ;
+}
+
+li:nth-child(odd) {
+    background-color: #cbb1b1;
+}
+
+li:hover {
+    background-color: #c0c0c0;
+}
+
+li:active {
+    background-color: #a0a0a0;
+}
+
+li:visited {
+    color: #777;
+}
+
+li:first-child {
+    font-style: italic;
+}
+
+
+li:not(:last-child) {
+    font-style: italic;
+}
+
+li:nth-child(3n) {
+    font-style: italic;
+}
